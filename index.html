@@ -1,6 +1,337 @@
 <!DOCTYPE html>
-
 <html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="author" content="Michael Behrens">
+    <meta name="description" content="The Pedestrians are a cover band founded in 1981. We play real rock and roll from the 60s through the 2000s. Available for booking.">
+    
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css.map">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+    <!--<link rel="stylesheet" href="css/animate.css">-->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <link rel="icon" type="image/png" href="images/pedestrians_logo.png">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/85eb700f36.js"></script>
+    <script src="js/custom.js"></script>
+    
+    <title>The Pedestrians</title>
+</head>
+
+<body>
+    
+    <div id="preload-bg"></div>
+    <div id="preload-k-s"></div>
+    <div id="preload-k-h"></div>
+    <div id="preload-p-s"></div>
+    <div id="preload-p-h"></div>
+    <div id="preload-t-s"></div>
+    <div id="preload-t-h"></div>
+    <div id="preload-cu-s"></div>
+    <div id="preload-cu-h"></div>
+    <div id="preload-s-s"></div>
+    <div id="preload-s-h"></div>
+    <div id="preload-cb-s"></div>
+    <div id="preload-cb-h"></div>
+    
+    
+    
+    <nav class="navbar navbar-custom navbar-fixed-top center fadein" role="navigation" id="nav">
+        <div class="container navbar-inner">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav thenavbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about_section">About Us</a></li>
+                    <li><a href="#music_section">Music</a></li>
+                    <li><a href="#member_section">Members</a></li>
+                    <li><a href="recent-events.html">Recent</a></li>
+                    <li><a href="#contact_section">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    
+    <div class="top">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <img src="images/pedestrians_logo.png" class="logo fadein" id="thelogo">
+            </div>
+        </div>
+        <div class="row btn-container fadein2">
+            <div class="col-lg-2 col-lg-offset-4 pad-bot">
+                <a href="#about_section">
+                    <div class="downarrow">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#contact_section">
+                    <div class="contact-btn">
+                        <span class="contact-btn-text">BOOK US</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <div class="bgbtn" onclick="changeElement();" id="thebutton" style="cursor: pointer">Show me the background</div>
+            </div>
+        </div>
+        -->
+    </div>
+    
+    
+    
+    
+    
+    <div class="about" id="about_section">
+        <div class="row">
+            <div class="col-lg-12 title">About Us</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 aboutline1">We are a cover band founded in 1981. We play real rock and roll from the 60s through the 2000s.</div>
+        </div><br>
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">Our material includes songs from the following artists:</div>
+        </div><br>
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <ul style="text-align: left">
+                    <li>David Bowie</li>
+                    <li>The Beatles</li>
+                    <li>The Rolling Stones</li>
+                    <li>Elvis Costello</li>
+                    <li>The Doors</li>
+                    <li>Devo</li>
+                    <li>The Clash</li>
+                    <li>And More!</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <a href="#music_section">
+                    <div class="contact-btn">
+                        <span class="contact-btn-text">LISTEN</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="music" id="music_section">
+        <div class="row">
+            <div class="col-lg-12 title">Music</div>
+        </div>
+        <div class="row musicrow">
+            <div class="col-lg-4 col-lg-offset-2">
+                I Can't Explain (The Who Cover)<br>
+                <audio controls src="audio/CantExplain.mp3"></audio>
+            </div>
+            <div class="col-lg-4">
+                Don't Let Me Down (The Beatles Cover)<br>
+                <audio controls src="audio/DontLetMeDown.m4a"></audio>
+            </div>
+        </div>
+        <div class="row musicrow">
+            <div class="col-lg-4 col-lg-offset-2">
+                Just Like Heaven (The Cure Cover)<br>
+                <audio controls src="audio/justlikeheaven.mp3"></audio>
+            </div>
+            <div class="col-lg-4">
+                Let's Dance (David Bowie Cover)<br>
+                <audio controls src="audio/letsdance.mp3"></audio>
+            </div>
+        </div>
+        <div class="row musicrow">
+            <div class="col-lg-4 col-lg-offset-2">
+                Gangsters (The Specials Cover)<br>
+                <audio controls src="audio/gangsters.mp3"></audio>
+            </div>
+            <div class="col-lg-4">
+                What I Like About You (The Romantics Cover)<br>
+                <audio controls src="audio/What%20I%20like%20about%20you.m4a"></audio>
+            </div>
+        </div>
+        <div class="row musicrow">
+            <div class="col-lg-4 col-lg-offset-2">
+                London Calling (The Clash Cover)<br>
+                <audio controls src="audio/londoncalling.mp3"></audio>
+            </div>
+            <div class="col-lg-4">
+                Pulling Mussels (Squeeze Cover)<br>
+                <audio controls src="audio/pulling%20mussels.mp3"></audio>
+            </div>
+        </div>
+        <div class="row musicrow">
+            <div class="col-lg-4 col-lg-offset-2">
+                Life During Wartime (Talking Heads Cover)<br>
+                <audio controls src="audio/lifeduringwartime.mp3"></audio>
+            </div>
+            <div class="col-lg-4">
+                Jumpin Jack Flash (Rolling Stones Cover)<br>
+                <audio controls src="audio/jumpinjackflash.mp3"></audio>
+            </div>
+        </div>
+        <div class="row bookus">
+            <div class="col-lg-6 col-lg-offset-3">
+                Like what you hear?<br><br>
+                <a href="#contact_section">
+                    <div class="contact-btn">
+                        <span class="contact-btn-text">BOOK US</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    <div class="members" id="member_section">
+        
+        <div class="row">
+            <div class="col-lg-12 title">Members</div>
+        </div>
+        
+        
+        <div class="row membersrow">
+            <div class="col-lg-2 col-lg-offset-2 member kevin">
+                <div class="contain">
+                    <div class="dummy"></div>
+                    <div class="element" id="kevin"></div>
+                </div>
+                <br><span class="membername">Kevin</span><br>
+                <span class="instrument">Lead Vocals</span>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1 member paul">
+                <div class="contain">
+                    <div class="dummy"></div>
+                    <div class="element" id="paul"></div>
+                </div>
+                <br><span class="membername">Paul</span><br>
+                <span class="instrument">Guitar / Backing Vocals</span>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1 member">
+                <div class="contain">
+                    <div class="dummy"></div>
+                    <div class="element" id="tony"></div>
+                </div>
+                <br><span class="membername">Tony</span><br>
+                <span class="instrument">Guitar</span>
+            </div>
+        </div>
+        
+        
+        <div class="row membersrow">
+            <div class="col-lg-2 col-lg-offset-2 member kevin">
+                <div class="contain">
+                    <div class="dummy"></div>
+                    <div class="element" id="chris_u"></div>
+                </div>
+                <br><span class="membername">Chris</span><br>
+                <span class="instrument">Bass Guitar / Backing Vocals</span>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1 member paul">
+                <div class="contain">
+                    <div class="dummy"></div>
+                    <div class="element" id="steve"></div>
+                </div>
+                <br><span class="membername">Steve</span><br>
+                <span class="instrument">Drums</span>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1 member">
+                <div class="contain">
+                    <div class="dummy"></div>
+                    <div class="element" id="chris_b"></div>
+                </div>
+                <br><span class="membername">Chris</span><br>
+                <span class="instrument">Keyboard / Backing Vocals</span>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <div class="contact" id="contact_section">
+        
+        <div class="row">
+            <div class="col-lg-12 title">Contact Us</div>
+        </div>
+    
+        <div class="row contactform">
+            <div class="col-lg-6 col-lg-offset-3">
+                <form action="https://formcarry.com/s/bITh4DI30S" method="POST" accept-charset="UTF-8">
+                    Your Information:<br>
+                    <input type="text" name="Name" placeholder="Full Name *" class="fullwidth" required><br><br>
+                    <input type="email" name="Email" placeholder="Your Email *" class="fullwidth" required><br><br>
+                    <input type="tel" name="Phone" placeholder="Phone Number *" class="fullwidth" required><br><br><br>
+                    Event Date: *<br>
+                    <input type="date" name="Event Date" class="fullwidth" required><br><br>
+                    <select class="event_type fullwidth" name="Event Type" required>
+                        <option value="select">-- Event Type --</option>
+                        <option value="Anniversary">Anniversary</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Corporate Event">Corporate Event</option>
+                        <option value="Private Party">Private Party</option>
+                        <option value="Restaurant Live Music">Restaurant Live Music</option>
+                        <option value="Reunion">Reunion</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Other">Other</option>
+                    </select><br><br><br>
+                    Venue Information<br>
+                    <input type="text" name="Venue Address" placeholder="Venue Address *" class="fullwidth" required><br><br>
+                    <input type="text" name="Venue City" placeholder="Venue City *" class="fullwidth" required><br><br>
+                    <input type="text" name="Venue State" placeholder="Venue State *" class="fullwidth" required><br><br>
+                    <input type="text" name="Venue" placeholder="Venue Name" class="fullwidth"><br><br><br>
+                    <textarea name="Additional Info" placeholder="Additional Info"></textarea><br><br>
+                    <input type="submit" value="Submit" class="fullwidth">
+                </form>
+            </div>
+        </div>
+    
+    
+    
+    </div>
+    
+    <footer>
+        Web Design and Development by <a href="http://behrensm03.github.io" target="_blank">Michael Behrens</a>
+    </footer>
+    
+    
+    
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+	   var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
 
 
 </html>
